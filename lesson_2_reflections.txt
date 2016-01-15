@@ -1,0 +1,11 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+
+    Starting a new repository  “git init”. To check content, “ls -a”.
+    A new file .git is created in the directory where the git init was made.
+    This .git file contains the metadata for the repository. No commits are yet created
+    since it is brand new. If you run a "git log" when there are no commits will
+    get error “fatal: bad default revision ‘HEAD’”. Meaning, no commits yet.
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    It is the area that holds the changes before you commit them to the working directory. 
